@@ -21,7 +21,7 @@ author = {Wang, Jindong and others}
         <td>Contents</td>
     </tr>
     <tr>
-        <td><a href="#0latest-publications-最新论文">0.Latest Publications (最新论文)</a></td>
+        <td><a href="#0latest-publications-最新论文">0.Papers (论文)</a></td>
         <td><a href="#1introduction-and-tutorials-简介与教程">1.Introduction and Tutorials (简介与教程)</a></td>
     </tr>
     <tr>
@@ -50,6 +50,8 @@ author = {Wang, Jindong and others}
 
 - - -
 
+**NOTE:** You can directly open the code in Gihub Codespaces on the web to run them without downloading!
+
 ## 0.Latest Publications (最新论文)
 
 **A good website to see the latest arXiv preprints by search: [Transfer learning](http://arxitics.com/search?q=transfer%20learning&sort=updated#1904.01376/abstract), [Domain adaptation](http://arxitics.com/search?q=domain%20adaptation&sort=updated)**
@@ -58,29 +60,35 @@ author = {Wang, Jindong and others}
 
 [迁移学习文章汇总 Awesome transfer learning papers](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
-- **Latest papers**
+- **Papers**
 
-  - 20210220 [DRIV100: In-The-Wild Multi-Domain Dataset and Evaluation for Real-World Domain Adaptation of Semantic Segmentation](http://arxiv.org/abs/2102.00150)
-    - A new dataset for domain adaptation on semantic segmentation
-    - 一个用于domain adaptation做语义分割的新数据集
+Latest: [**所有 all papers...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
-  - 20200220 [Butterfly: One-step Approach towards Wildly Unsupervised Domain Adaptation](http://arxiv.org/abs/1905.07720)
-    - Noisy domain adaptation
-    - 用于噪声环境中的domain adaptation的方法
+  - 20210607 [FedHealth 2: Weighted Federated Transfer Learning via Batch Normalization for Personalized Healthcare](https://arxiv.org/abs/2106.01009)
+    - Federated transfer learning framework 2
+    - FedHealth联邦迁移学习框架第二代
 
-  - 20210202 [Admix: Enhancing the Transferability of Adversarial Attacks](https://arxiv.org/abs/2102.00436)
-    - Enhancing the transferability of adversarial attacks
-    - 增强对抗攻击的可迁移性
+  - 20210607 Interspeech-21 [Cross-domain Speech Recognition with Unsupervised Character-level Distribution Matching](https://arxiv.org/abs/2104.07491) [知乎](https://zhuanlan.zhihu.com/p/370691801)
+    - Domain adaptation for speech recognition
+    - 用domain adaptation进行跨领域的语音识别
 
-  - 20210202 [Transfer Learning Approach for Detecting Psychological Distress in Brexit Tweets](https://arxiv.org/abs/2102.00912)
-    - 检测英国脱欧twitter中的心理压力
+  - 20210607 ICML-21 [Sequential Domain Adaptation by Synthesizing Distributionally Robust Experts](http://arxiv.org/abs/2106.00322)
+    - Sequential DA using distributionally robust experts
+    - 用鲁棒专家模型进行连续式领域自适应
 
-  - 20210202 ICLR-21 [Rethinking Soft Labels for Knowledge Distillation: A Bias-Variance Tradeoff Perspective](https://arxiv.org/abs/2102.00650)
-    - Rethink soft labels for KD in a bias-variance tradeoff perspective
-    - 从偏差-方差的角度重新思考蒸馏中的软标签
+  - 20210607 [Bilingual Alignment Pre-training for Zero-shot Cross-lingual Transfer](http://arxiv.org/abs/2106.01732)
+    - Zero-shot cross-lingual transfer using bilingual alignment pretraining
+    - 通过双语言进行对齐预训练进行零资源的跨语言迁移
 
+  - 20210607 [Pre-training Universal Language Representation](http://arxiv.org/abs/2105.14478)
+    - Pretraining for universal language representation
+    - 用统一的预训练进行语言表征建模
 
-[**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
+  - 20210526 [Exploiting Adapters for Cross-lingual Low-resource Speech Recognition](https://arxiv.org/abs/2105.11905)
+    - Investigate cross-lingual speech recognition for low-resource languages using Adapter and its variants.
+    - 探究使用Adapter及其变体进行对低资源语言进行跨语言语音识别
+    - 
+[**所有 all papers...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
 - - -
 
@@ -88,16 +96,20 @@ author = {Wang, Jindong and others}
 
 Want to quickly learn transfer learning？想尽快入门迁移学习？看下面的教程。
 
-- The first transfer learning tutorial 入门教程 
-	- [**《迁移学习简明手册》Transfer Learning Tutorial**](https://zhuanlan.zhihu.com/p/35352154) [Read online](https://tutorial.transferlearning.xyz/), [PDF](http://jd92.wang/assets/files/transfer_learning_tutorial_wjd.pdf)
-	- [Zhihu blogs - 知乎专栏《小王爱迁移》系列文章](https://zhuanlan.zhihu.com/p/130244395)
+- The transfer learning tutorial 入门教程 
+  - Book: [**《迁移学习导论》Introduction to Transfer Learning**](https://zhuanlan.zhihu.com/p/374927278) [Buy](https://item.jd.com/13283188.html)
+  - [Zhihu blogs - 知乎专栏《小王爱迁移》系列文章](https://zhuanlan.zhihu.com/p/130244395)
+	- [《迁移学习简明手册》Transfer Learning Tutorial](https://zhuanlan.zhihu.com/p/35352154) [PDF](http://jd92.wang/assets/files/transfer_learning_tutorial_wjd.pdf)
+	
 
 - Video tutorials 视频教程 
+  - [Recent advance of transfer learning - 2021年最新迁移学习发展现状探讨](https://www.bilibili.com/video/BV1N5411T7Sb)
 	- [Domain adaptation - 迁移学习中的领域自适应方法(中文)](https://www.bilibili.com/video/BV1T7411R75a/)
     - [Transfer learning by Hung-yi Lee @ NTU - 台湾大学李宏毅的视频讲解(中文视频)](https://www.youtube.com/watch?v=qD6iD4TFsdQ)
 	- [Chelsea finn's Stanford CS330 class on multi-task and meta-learning - 2020斯坦福大学多任务与元学习教程CS330](https://www.bilibili.com/video/av91772677?p=12)
 
 - Brief introduction and slides 简介与ppt资料
+  - [Recent advance of transfer learning](http://jd92.wang/assets/files/l15_jiqizhixin.pdf)
 	- [Brief introduction in Chinese](https://github.com/jindongwang/transferlearning/blob/master/doc/%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0%E7%AE%80%E4%BB%8B.md)
 	- [PPT (English)](http://jd92.wang/assets/files/l03_transferlearning.pdf) | [PPT (中文)](http://jd92.wang/assets/files/l08_tl_zh.pdf)
 	- 迁移学习中的领域自适应方法 Domain adaptation: [PDF](http://jd92.wang/assets/files/l12_da.pdf) ｜ [Video on Bilibili](https://www.bilibili.com/video/BV1T7411R75a/) | [Video on Youtube](https://www.youtube.com/watch?v=RbIsHNtluwQ&t=22s)
@@ -154,6 +166,9 @@ Here are some articles on transfer learning theory and survey.
 - The most influential survey on transfer learning （最权威和经典的综述）: [A survey on transfer learning](http://ieeexplore.ieee.org/abstract/document/5288526/).
 
 - Latest survey - 较新的综述：
+    - 2021 Domain generalization: IJCAI-21 [Generalizing to Unseen Domains: A Survey on Domain Generalization](https://arxiv.org/abs/2103.03097) | [知乎文章](https://zhuanlan.zhihu.com/p/354740610) | [微信公众号](https://mp.weixin.qq.com/s/DsoVDYqLB1N7gj9X5UnYqw)
+      - First survey on domain generalization
+      - 第一篇对Domain generalization (领域泛化)的综述
     - 2020 迁移学习最新survey，来自中科院计算所庄福振团队，发表在Proceedings of the IEEE: [A Comprehensive Survey on Transfer Learning](https://arxiv.org/abs/1911.02685)
     - 2020 负迁移的综述：[Overcoming Negative Transfer: A Survey](https://arxiv.org/abs/2009.00909)
 	- 2020 知识蒸馏的综述: [Knowledge Distillation: A Survey](https://arxiv.org/abs/2006.05525)
@@ -219,67 +234,13 @@ Here are some transfer learning scholars and labs.
 
 Please note that this list is far not complete. A full list can be seen in [here](https://github.com/jindongwang/transferlearning/blob/master/doc/scholar_TL.md). Transfer learning is an active field. *If you are aware of some scholars, please add them here.*
 
-- General transfer learning algorithms and applications:
-
-  - [Qiang Yang](http://www.cs.ust.hk/~qyang/)：中文名杨强。香港科技大学计算机系讲座教授，迁移学习领域世界性专家。IEEE/ACM/AAAI/IAPR/AAAS fellow。[[Google scholar](https://scholar.google.com/citations?user=1LxWZLQAAAAJ&hl=zh-CN)]
-
-  - [Sinno Jialin Pan](http://www.ntu.edu.sg/home/sinnopan/)：杨强的学生，香港科技大学博士，现任新加坡南洋理工大学助理教授。迁移学习领域代表性综述A survey on transfer learning的第一作者（Qiang Yang是二作）。[[Google scholar](https://scholar.google.com/citations?user=P6WcnfkAAAAJ&hl=zh-CN)]
-
-- Transfer learning algorithms:
-
-  - [Wenyuan Dai](https://scholar.google.com.sg/citations?user=AGR9pP0AAAAJ&hl=zh-CN)：中文名戴文渊，上海交通大学硕士，现任第四范式人工智能创业公司CEO。迁移学习领域著名的牛人，在顶级会议上发表多篇高水平文章，每篇论文引用量巨大。[[Google scholar](https://scholar.google.com.hk/citations?hl=zh-CN&user=AGR9pP0AAAAJ)]
-
-  - [Mingsheng Long](http://ise.thss.tsinghua.edu.cn/~mlong/)：中文名龙明盛，清华大学博士，现任清华大学助理教授、博士生导师。[[Google scholar](https://scholar.google.com/citations?view_op=search_authors&mauthors=mingsheng+long&hl=zh-CN&oi=ao)]
-
-  - [Lixin Duan](http://www.lxduan.info/)：中文名段立新，新加坡南洋理工大学博士，现就职于电子科技大学，教授。[[Google scholar](https://scholar.google.com.hk/citations?user=inRIcS0AAAAJ&hl=zh-CN&oi=ao)]
-
-- Transfer learning + computer vision
-
-  - [Boqing Gong](http://boqinggong.info/index.html)：南加州大学博士，现就职于腾讯AI Lab(西雅图)。曾任中佛罗里达大学助理教授。[[Google scholar](https://scholar.google.com/citations?user=lv9ZeVUAAAAJ&hl=en)]
-  
-  - [Tatiana Tommasi](http://tatianatommasi.wixsite.com/tatianatommasi/3)：Researcher at the Italian Institute of Technology.
-
-  - [Vinod K Kurmi](https://github.com/vinodkkurmi)[[home page](https://github.com/vinodkkurmi)]: Researcher at the Indian Institute of Technology Kanpur(India)
-
-- Transfer learning + recommendation systems
-
-  - [Weike Pan](https://sites.google.com/site/weikep/)：中文名潘微科，杨强的学生，现任深圳大学副教授，香港科技大学博士毕业。主要做迁移学习在推荐系统方面的一些工作。 [[Google Scholar](https://scholar.google.com/citations?user=pC5Q26MAAAAJ&hl=en)]
-
-  - [Fuzhen Zhuang](http://www.intsci.ac.cn/users/zhuangfuzhen/)：中文名庄福振，中科院计算所博士，现任中科院计算所副研究员。[[Google scholar](https://scholar.google.com/citations?user=klJBYrAAAAAJ&hl=zh-CN&oi=ao)]
-
-- Online transfer learning:
-
-  - [Qingyao Wu](https://sites.google.com/site/qysite/)：中文名吴庆耀，现任华南理工大学副教授。主要做在线迁移学习、异构迁移学习方面的研究。[[Google scholar](https://scholar.google.com.hk/citations?user=n6e_2IgAAAAJ&hl=zh-CN&oi=ao)]
-
-- Theory:
-
-  - [Tongliang Liu](http://ieeexplore.ieee.org/abstract/document/8259375/)：中文名刘同亮，现任悉尼大学助理教授。主要做迁移学习的一些理论方面的工作。[[Google scholar](https://scholar.google.com.hk/citations?hl=zh-CN&user=EiLdZ_YAAAAJ)]
-
 _ _ _
 
 ## 6.Transfer Learning Thesis (硕博士论文)
 
 Here are some popular thesis on transfer learning.
 
-硕博士论文可以让我们很快地对迁移学习的相关领域做一些了解，同时，也能很快地了解概括相关研究者的工作。其中，比较有名的有
-
-- 2016 Baochen Sun的[Correlation Alignment for Domain Adaptation](http://www.cs.uml.edu/~bsun/papers/baochen_phd_thesis.pdf)
-
-- 2015 南加州大学的Boqing Gong的[Kernel Methods for Unsupervised Domain Adaptation](https://pan.baidu.com/s/1bpbawv9)
-
-- 2014 清华大学龙明盛的[迁移学习问题与方法研究](http://ise.thss.tsinghua.edu.cn/~mlong/doc/phd-thesis-mingsheng-long.pdf)
-
-- 2014 中科院计算所赵中堂的[自适应行为识别中的迁移学习方法研究](https://pan.baidu.com/s/1kVqYXnh)
-
-- 2012 杨强的学生Hao Hu的[Learning based Activity Recognition](https://pan.baidu.com/s/1bp2K9HX)
-
-- 2012 杨强的学生Wencheng Zheng的[Learning with Limited Data in Sensor-based Human Behavior Prediction](https://pan.baidu.com/s/1o8MbbBk)
-
-- 2010 杨强的学生Sinno Jialin Pan的[Feature-based Transfer Learning and Its Applications](https://pan.baidu.com/s/1bUqMfW)
-
-- 2009 上海交通大学戴文渊的[基于实例和特征的迁移学习算法研究](https://pan.baidu.com/s/1i4Vyygd)
-
-其他的文章，请见[完整版](https://pan.baidu.com/s/1bqXEASn)。
+[这里](https://pan.baidu.com/share/init?surl=iuzZhHdumrD64-yx_VAybA), 提取码：txyz。
 
 - - -
 
@@ -308,7 +269,7 @@ See [HERE](https://github.com/jindongwang/transferlearning/blob/master/doc/trans
 ## Other Resources (其他资源)
 
 - Call for papers:
-  - DLKT: [Deep Learning for Knowledge Transfer @ ICDM 2020](http://icdm2020.bigke.org/)
+  - [Advances in Transfer Learning: Theory, Algorithms, and Applications](https://www.frontiersin.org/research-topics/21133/advances-in-transfer-learning-theory-algorithms-and-applications), DDL: October 2021
 
 - Related projects:
   - Salad: [A semi-supervised domain adaptation library](https://domainadaptation.org)

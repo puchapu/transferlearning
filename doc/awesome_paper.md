@@ -32,6 +32,10 @@ Let's read some awesome transfer learning / domain adaptation papers.
 
 ### 1.1.1. Theory (理论)
 
+- 20210521 [When is invariance useful in an Out-of-Distribution Generalization problem ?](http://arxiv.org/abs/2008.01883)
+    - When is invariant useful in OOD?
+    - 理论上分析了在OOD问题中invariance什么时候有用
+
 - 20200220 [Butterfly: One-step Approach towards Wildly Unsupervised Domain Adaptation](http://arxiv.org/abs/1905.07720)
     - Noisy domain adaptation
     - 用于噪声环境中的domain adaptation的方法
@@ -80,6 +84,18 @@ Let's read some awesome transfer learning / domain adaptation papers.
 	- 对domain adaptation进行了一些理论上的分析
 
 ### 1.1.2. Others (其他)
+
+- 20210511 ACL-21 [Are Pre-trained Convolutions Better than Pre-trained Transformers?](https://arxiv.org/abs/2105.03322)
+    - Empirically investigate pre-trained convolutions and Transformers
+    - 设计实验探索预训练的卷积和Transformer的对比
+
+- 20210426 [Distill on the Go: Online knowledge distillation in self-supervised learning](http://arxiv.org/abs/2104.09866)
+    - Online knowledge distillation in self-supervised learning
+    - 自监督学习中的在线知识蒸馏
+
+- 20210319 [Cross-domain Activity Recognition via Substructural Optimal Transport](https://arxiv.org/abs/2102.03353) | [知乎文章](https://zhuanlan.zhihu.com/p/356904023) | [微信公众号](https://mp.weixin.qq.com/s/QuVrqnPruHgfolYltI1Peg)
+    - Using sub-structures for domain adaptation
+    - 采用子结构进行domain adaptation，比传统方法快5倍
 
 - 20210202 ICLR-21 [Rethinking Soft Labels for Knowledge Distillation: A Bias-Variance Tradeoff Perspective](https://arxiv.org/abs/2102.00650)
     - Rethink soft labels for KD in a bias-variance tradeoff perspective
@@ -323,6 +339,10 @@ Including domain adaptation and partial domain adaptation.
 
 ### 1.2.1. Traditional Methods (传统迁移方法)
 
+- 20210607 ICML-21 [Sequential Domain Adaptation by Synthesizing Distributionally Robust Experts](http://arxiv.org/abs/2106.00322)
+  - Sequential DA using distributionally robust experts
+  - 用鲁棒专家模型进行连续式领域自适应
+
 - 20200615 [Deep Transfer Learning with Ridge Regression](https://arxiv.org/abs/2006.06791)
 
 - 20200324 [Domain Adaptation by Class Centroid Matching and Local Manifold Self-Learning](https://arxiv.org/abs/2003.09391)
@@ -450,6 +470,22 @@ Including domain adaptation and partial domain adaptation.
 	- 发表在IEEE Trans. Knowledge and Data Engineering期刊上
 
 ### 1.2.2. Deep / Adversarial Methods (深度/对抗迁移方法)
+
+- 20210329 ICLR-21 [Tent: Fully Test-Time Adaptation by Entropy Minimization](https://openreview.net/forum?id=uXl3bZLkr3c)
+    - Test time adaptation by entropy minimization
+    - 测试时通过熵最小化进行adaptation
+
+- 20210329 [Adversarial Branch Architecture Search for Unsupervised Domain Adaptation](https://arxiv.org/abs/2102.06679v2)
+    - NAS for domain adaptation
+    - 用神经网络结构搜索做领域自适应
+
+- 20210312 [Discrepancy-Based Active Learning for Domain Adaptation](https://arxiv.org/abs/2103.03757v1)
+    - Discrepancy and active learning for DA
+    - 基于主动学习的DA
+
+- 20210312 [Unbalanced minibatch Optimal Transport; applications to Domain Adaptation](https://arxiv.org/abs/2103.03606v1)
+    - Unbalanced minibatch OT for DA
+    - 非均衡的OT用于DA问题
 
 - 20210127 [Hierarchical Domain Invariant Variational Auto-Encoding with weak domain supervision](http://arxiv.org/abs/2101.09436)
     - 利用VAE和解耦去做domain generalization
@@ -695,6 +731,9 @@ Including domain adaptation and partial domain adaptation.
 
 ## 1.3. Domain Generalization
 
+- 2021 Domain generalization: IJCAI-21 [Generalizing to Unseen Domains: A Survey on Domain Generalization](https://arxiv.org/abs/2103.03097) | [知乎文章](https://zhuanlan.zhihu.com/p/354740610) | [微信公众号](https://mp.weixin.qq.com/s/DsoVDYqLB1N7gj9X5UnYqw)
+    - First survey on domain generalization
+    - 第一篇对Domain generalization (领域泛化)的综述
 - 20180701 arXiv 做迁移时，只用source数据，不用target数据训练：[Generalizing to Unseen Domains via Adversarial Data Augmentation](https://arxiv.org/abs/1805.12018)
 
 - 201711 ICLR-18 [GENERALIZING ACROSS DOMAINS VIA CROSS-GRADIENT TRAINING](https://openreview.net/pdf?id=r1Dx7fbCW)
@@ -724,6 +763,13 @@ Including domain adaptation and partial domain adaptation.
 - - -
 
 ## 1.4. Multi-source Transfer Learning (多源迁移学习)
+
+- 20210430 [Graphical Modeling for Multi-Source Domain Adaptation](http://arxiv.org/abs/2104.13057)
+    - Graphical models for multi-source DA
+    - 用概率图模型进行多源领域自适应
+- 20210430 [Unsupervised Multi-Source Domain Adaptation for Person Re-Identification](http://arxiv.org/abs/2104.12961)
+    - ReID using multi-source DA
+    - 用多源领域自适应进行ReID任务
 
 - 20200427 [TriGAN: Image-to-Image Translation for Multi-Source Domain Adaptation](https://arxiv.org/abs/2004.08769)
   	- A cycle-gan style multi-source DA
@@ -820,6 +866,10 @@ Including domain adaptation and partial domain adaptation.
 - - -
 
 ## 1.7. Zero-shot / Few-shot Learning
+
+- 20210426 [Few-shot Continual Learning: a Brain-inspired Approach](http://arxiv.org/abs/2104.09034)
+    - Few-shot continual learning
+    - 小样本持续学习
 
 - 20201203 [How to fine-tune deep neural networks in few-shot learning?](https://arxiv.org/abs/2012.00204)
     - 对few-shot任务如何fine-tune深度网络？
@@ -919,6 +969,14 @@ Including domain adaptation and partial domain adaptation.
 ## 1.8. Deep Transfer Learning (深度迁移学习)
 
 ### 1.8.1. Non-Adversarial Transfer Learning (非对抗深度迁移)
+
+- 20210420 arXiv [On Universal Black-Box Domain Adaptation](https://arxiv.org/abs/2104.04665)
+    - Universal black-box domain adaptation
+    - 黑盒情况下的universal domain adaptation
+
+- 20210319 [Learning Invariant Representations across Domains and Tasks](https://arxiv.org/abs/2103.05114)
+    - Automatically learn to match distributions
+    - 自动适配分布的任务适配网络
 
 - 20191222 arXiv [Dreaming to Distill: Data-free Knowledge Transfer via DeepInversion](https://arxiv.org/abs/1912.08795)
    - Generate data without priors for transfer learning based on deep dream

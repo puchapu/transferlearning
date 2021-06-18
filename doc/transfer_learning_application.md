@@ -2,6 +2,38 @@
 
 迁移学习的应用
 
+- 20210607 [FedHealth 2: Weighted Federated Transfer Learning via Batch Normalization for Personalized Healthcare](https://arxiv.org/abs/2106.01009)
+    - Federated transfer learning framework 2
+    - FedHealth联邦迁移学习框架第二代
+
+- 20210607 [Bilingual Alignment Pre-training for Zero-shot Cross-lingual Transfer](http://arxiv.org/abs/2106.01732)
+  - Zero-shot cross-lingual transfer using bilingual alignment pretraining
+  - 通过双语言进行对齐预训练进行零资源的跨语言迁移
+
+- 20210607 [Pre-training Universal Language Representation](http://arxiv.org/abs/2105.14478)
+  - Pretraining for universal language representation
+  - 用统一的预训练进行语言表征建模
+
+- 20210521 ECCV-20 [Efficient Transfer Learning via Joint Adaptation of Network Architecture and Weight](https://arxiv.org/abs/2008.01883)
+    - Using NAS for transfer learning
+    - 用NAS做迁移学习
+
+- 20210516 [A cost-benefit analysis of cross-lingual transfer methods](https://arxiv.org/abs/2105.06813)
+  - Analysis of the running time of cross-lingual transfer
+  - 分析了跨语言迁移方法的时间
+
+- 20210511 [Adaptive Domain-Specific Normalization for Generalizable Person Re-Identification](https://arxiv.org/abs/2105.03042)
+    - Adaptive domain-specific normalization for generalizable ReID
+    - 自适应的领域特异归一化用于ReID
+
+- 20210420 arXiv [Domain Adaptation and Multi-Domain Adaptation for Neural Machine Translation: A Survey](https://arxiv.org/abs/2104.06951)
+    - A survey on domain adaptation for machine translation
+    - 关于用领域自适应进行神经机器翻译的综述
+
+- 20210607 Interspeech-21 [Cross-domain Speech Recognition with Unsupervised Character-level Distribution Matching](https://arxiv.org/abs/2104.07491)
+    - Domain adaptation for speech recognition
+    - 用domain adaptation进行跨领域的语音识别
+
 - 20210220 [DRIV100: In-The-Wild Multi-Domain Dataset and Evaluation for Real-World Domain Adaptation of Semantic Segmentation](http://arxiv.org/abs/2102.00150)
     - A new dataset for domain adaptation on semantic segmentation
     - 一个用于domain adaptation做语义分割的新数据集
